@@ -33,7 +33,7 @@ img.src="image.jpg"
 
 
 const add_button=Document.createElement('button')
-add_button.innerText=""
+add_button.innerText="submit"
 
 const location=document.querySelector('.hero-right-section-btns')
 location.appendChild(add_button)
