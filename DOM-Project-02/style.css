@@ -1,0 +1,89 @@
+/* making the body block to remove flex property from other sheet */
+*{
+  box-sizing: border-box;
+}
+
+
+
+body{
+  display: block;
+  overflow-y: scroll;
+}
+
+/* main wrapper for the accordian */
+.accordian-wrapper{
+  border: 5px solid white;
+  width: 70vw;
+  margin: 50px auto;
+}
+
+.accordian{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 2px solid white;
+  
+}
+
+.accordian h3{
+  padding: 5px 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.accordian p{
+  padding: 5px 15px;
+  font-size: 16px;
+  font-weight: 600;
+  display: none;
+}
+
+
+ ul{
+
+list-style-type: none;
+display: flex;
+gap:40px;
+
+    
+}
+
+
+
+li a{
+
+  text-decoration:none;
+  color:black;
+}
+
+
+
+body{
+background-color: rgb(173, 167, 232);
+}
+
+
+
+nav{
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+.search-field button{
+
+
+  background-color: rgb(3, 122, 108);
+  border-radius: 2px;
+  color:white;
+  border-style:none;
+  padding:5px;
+}
+
+.search-field{
+  display:flex;
+  align-items: center;
+  gap:20px;
+}
